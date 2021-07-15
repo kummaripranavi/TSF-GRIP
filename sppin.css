@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(bg.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 130px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family:"Times New Roman ,Georgia ,Garamond", cursive, sans-serif;
+	color: black;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: midnightblue;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: mediumvioletred;
+	font-size: 60px;
+	font-family:"sans-serif";
+	text-transform: uppercase;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center .buttons{
+	display: flex;
+	justify-content: center;
+  align-items: center;
+	margin: 35px 280px;
+	font-family:"sans-serif";
+} 
+
+.buttons button{
+	
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: purple;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	justify-content: center;
+  align-items: center;
+	margin-left: 25px;
+}
+.buttons button:hover{
+	justify-content: center;
+  align-items: center;
+	background: palevioletred;
+}
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+	*{
+	   
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		font-family: Arial, Helvetica, sans-serif;
+		line-height: 1;
+	}
+	footer{
+		background: black;
+		color: white;
+		padding: 60px 0;
+	}
+	.container{
+		width: 80%;
+		max-width: 1000px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	li{
+		margin-left: 10mm;
+		list-style: none;
+		line-height: 2;
+	}
+	a{
+		text-decoration: none;
+		color:white;
+	}
+	
+	.items{
+		flex-basis: 20%;
+	}
+	.items .logo{
+		text-transform: capitalize;
+		font-size: 1.5em;
+		color: white;
+	}
+	.items p{
+		margin: 1.2em 0;
+	}
+	.social{
+		display: flex;
+	}
+	.social a{
+		height: 30px;
+		width: 30px;
+		background: black;
+		border-radius: 5px;
+		margin:10px 5px;
+		text-align: center;
+	}
+	.social a i{
+		font-size: 1.4em;
+		line-height: 30px;
+	}
+	
+	hr{
+		opacity: .3;
+	}
+	
+	footer .end{
+		text-align: center;
+		padding: 20px 0 0 0;
+	}
+	@media (max-width:640px){
+		.items{
+		flex-basis: 80%;
+		margin: auto;
+	}
+	}
